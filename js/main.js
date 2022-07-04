@@ -10,5 +10,6 @@ if (eta < 18){
 } else if (eta > 65) {
     alert ('il prezzo sarà di ' + (tot) - (numeroKm * 40 / 100) + ' €');
 
-} else
+} else{
     alert ('il prezzo sarà di ' + (tot) + ' €');
+}
