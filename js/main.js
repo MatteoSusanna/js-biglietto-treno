@@ -5,10 +5,10 @@ const tot = numeroKm * 0.21;
 
 
 if (eta < 18){
-    alert ((tot) - (numeroKm * 20 / 100) );
+    alert ('il prezzo sarà di ' + (tot) - (numeroKm * 20 / 100) + ' €');
 
 } else if (eta > 65) {
-    alert ((tot) - (numeroKm * 40 / 100) );
+    alert ('il prezzo sarà di ' + (tot) - (numeroKm * 40 / 100) + ' €');
 
 } else
-    alert (tot);
+    alert ('il prezzo sarà di ' + (tot) + ' €');
